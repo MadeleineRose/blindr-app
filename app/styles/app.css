@@ -1,0 +1,17 @@
+.user{
+  margin-left: 5%;
+  size: 30px;
+}
+
+.jumbotron.homepage {
+   position: relative;
+   background: url('/assets/images/date.jpeg') center center;
+   width: 100%;
+   height: 750px;
+   background-size: cover;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   margin-bottom: 0px;
+
+}

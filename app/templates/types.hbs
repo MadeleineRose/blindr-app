@@ -1,0 +1,20 @@
+
+
+  <h2 style="text-align: center;">Types</h2>
+
+  <ul class="list-group" style="text-align: center;">
+  {{!-- start your iteration over each member of the model here --}}
+  {{#each model as |type|}}
+
+      <a><h4 {{action 'showMore' type}}>
+      Type: {{type.p_type}}
+      </h4></a>
+
+  {{/each}}
+
+  </ul>
+
+
+
+<!-- {{show-product product=currentProduct}} -->
+{{show-type type=currentType}}

@@ -1,0 +1,8 @@
+{{yield}}
+{{#if type}}
+   <div class="container type well">
+     <h3>{{type.personality}}</h3>
+     <p>Description: {{type.Description}}</p>
+     {{link-to "Take the quiz again!" "questions"}}
+   </div>
+ {{/if}}
